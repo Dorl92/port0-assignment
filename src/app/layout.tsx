@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { QueryClientProviderWrapper } from '@/components/QueryClientProviderWrapper';
+import { QueryClientProviderWrapper } from '@/wrappers/QueryClientProviderWrapper';
 import { MantineProvider, mantineHtmlProps } from '@mantine/core';
 import '@mantine/core/styles.layer.css';
 import 'mantine-datatable/styles.layer.css';

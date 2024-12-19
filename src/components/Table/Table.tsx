@@ -5,7 +5,7 @@ import { useDeleteSubject } from '@/hooks/useDeleteSubject';
 import { useGetSubjects } from '@/hooks/useGetSubjects';
 import { useUpdateSubject } from '@/hooks/useUpdateSubject';
 import { Subject } from '@/interfaces/subject';
-import { UpdateSubjectData } from '@/interfaces/updated-subject';
+import { UpdateSubjectData } from '@/interfaces/update-subject';
 import { ActionIcon, Container, Group } from '@mantine/core';
 import { IconEdit, IconTrash } from '@tabler/icons-react';
 import { DataTable, DataTableSortStatus } from 'mantine-datatable';

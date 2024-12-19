@@ -1,5 +1,5 @@
 import { Subject } from '@/interfaces/subject';
-import { UpdateSubjectData } from '@/interfaces/updated-subject';
+import { UpdateSubjectData } from '@/interfaces/update-subject';
 import { Button, Modal, NumberInput, TextInput } from '@mantine/core';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';

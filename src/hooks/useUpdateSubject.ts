@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { doc, updateDoc } from 'firebase/firestore';
 import { db } from '../firebase';
-import { UpdateSubjectData } from '@/interfaces/updated-subject';
+import { UpdateSubjectData } from '@/interfaces/update-subject';
 
 const updateSubject = async (id: string, updatedData: UpdateSubjectData) => {
   const subjectRef = doc(db, 'subjects', id);
@@ -27,6 +27,7 @@ const updateSubject = async (id: string, updatedData: UpdateSubjectData) => {
 //   });
 // };
 
+// Optimistic Update
 export const useUpdateSubject = () => {
   const queryClient = useQueryClient();
   return useMutation({

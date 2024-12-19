@@ -17,6 +17,7 @@ const deleteSubject = async (id: string) => {
 //   });
 // };
 
+// Optimistic Delete
 export const useDeleteSubject = () => {
   const queryClient = useQueryClient();
   return useMutation({
